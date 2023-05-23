@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatterServer", "ChatterServer.csproj", "{38ADE16B-499E-428C-92B8-B8D7FC1CBC43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatterClient", "..\ChatterClient\ChatterClient.csproj", "{0F22E89E-7175-49FD-A5E7-E22C786C3890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{62880FE8-2AAE-4E7D-B989-87FB5829256B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38ADE16B-499E-428C-92B8-B8D7FC1CBC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38ADE16B-499E-428C-92B8-B8D7FC1CBC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38ADE16B-499E-428C-92B8-B8D7FC1CBC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38ADE16B-499E-428C-92B8-B8D7FC1CBC43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F22E89E-7175-49FD-A5E7-E22C786C3890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F22E89E-7175-49FD-A5E7-E22C786C3890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F22E89E-7175-49FD-A5E7-E22C786C3890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F22E89E-7175-49FD-A5E7-E22C786C3890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62880FE8-2AAE-4E7D-B989-87FB5829256B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62880FE8-2AAE-4E7D-B989-87FB5829256B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62880FE8-2AAE-4E7D-B989-87FB5829256B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62880FE8-2AAE-4E7D-B989-87FB5829256B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {380A39B5-73B8-4AB6-B3A4-F8EAB83A0F87}
+	EndGlobalSection
+EndGlobal
